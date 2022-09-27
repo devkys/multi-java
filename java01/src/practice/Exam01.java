@@ -7,6 +7,7 @@ public class Exam01{
 		Scanner in = new Scanner(System.in);
 		int width, height;
 		System.out.print("가로 입력 >> ");
+		
 		width = in.nextInt();
 		System.out.print("세로 입력 >> ");
 		height = in.nextInt();
