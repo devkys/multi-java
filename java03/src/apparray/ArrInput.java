@@ -1,4 +1,4 @@
-package basicarray;
+package apparray;
 import java.util.Scanner;
 
 
@@ -12,8 +12,15 @@ public class ArrInput {
 	    num[i] =  in.nextInt();
 	}
 
+	int sum = 0;
+
 	for(int x: num) {
 	    System.out.println(x);
+	    sum += x;
 	}
+
+	System.out.println();
+	System.out.print("합계 :" + sum);
+
     }
 }
