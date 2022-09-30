@@ -4,11 +4,15 @@ import javax.swing.*;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import useclass.Write;
 
 public class Diary {
 	
-	private static JTextField textField;
-	private static JTextField textField_1;
+	public static JTextField date_tf;
+	public static JTextField title_tf;
+	public static JTextArea ta;
 	
 	public void open() {
 		
@@ -36,30 +40,41 @@ public class Diary {
 		lblNewLabel_2.setBounds(23, 195, 148, 55);
 		f.getContentPane().add(lblNewLabel_2);
 		
-		textField = new JTextField();
-		textField.setBounds(183, 52, 270, 41);
-		f.getContentPane().add(textField);
-		textField.setColumns(10);
-		textField.setBackground(Color.GREEN);
+		date_tf = new JTextField();
+		date_tf.setFont(new Font("굴림", Font.BOLD, 30));
+		date_tf.setBounds(183, 52, 270, 41);
+		f.getContentPane().add(date_tf);
+		date_tf.setColumns(10);
+		date_tf.setBackground(Color.GREEN);
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		textField_1.setBounds(183, 129, 270, 41);
-		textField_1.setBackground(Color.GREEN);
-		f.getContentPane().add(textField_1);
+		title_tf = new JTextField();
+		title_tf.setFont(new Font("굴림", Font.BOLD, 30));
+		title_tf.setColumns(10);
+		title_tf.setBounds(183, 129, 270, 41);
+		title_tf.setBackground(Color.GREEN);
+		f.getContentPane().add(title_tf);
 		
-		JTextArea textArea = new JTextArea();
-		textArea.setBounds(183, 215, 270, 149);
-		textArea.setBackground(Color.GREEN);
-		f.getContentPane().add(textArea);
+		ta = new JTextArea();
+		ta.setFont(new Font("굴림", Font.BOLD, 30));
+		ta.setBounds(183, 215, 270, 149);
+		ta.setBackground(Color.GREEN);
+		f.getContentPane().add(ta);
 		
-		JButton btnNewButton = new JButton("일기 저장");
-		btnNewButton.setFont(new Font("굴림", Font.BOLD, 35));
-		btnNewButton.setBounds(133, 384, 200, 55);
-		btnNewButton.setOpaque(true);
-		btnNewButton.setBackground(Color.PINK);
-		f.getContentPane().add(btnNewButton);
+		JButton write_btn = new JButton("일기 저장");
+		write_btn.setFont(new Font("굴림", Font.BOLD, 35));
+		write_btn.setBounds(133, 384, 200, 55);
+		write_btn.setOpaque(true);
+		write_btn.setBackground(Color.PINK);
+		f.getContentPane().add(write_btn);
 		
+		write_btn.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				Write write = new Write();
+				write.open();
+				
+			}
+		});
 		
 		
 		
