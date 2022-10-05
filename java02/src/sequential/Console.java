@@ -6,12 +6,14 @@ public class Console {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("ÀÌ¸§À» ÀÔ·Â: ");
+		System.out.print("ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		String name = sc.next();
-		System.out.println("ÀÔ·Â¹ÞÀº ÀÌ¸§Àº " + name + " ÀÔ´Ï´Ù. ");
+		System.out.println("ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ " + name + " ï¿½Ô´Ï´ï¿½. ");
 
-		System.out.print("¼Ò¼ÓÀ» ÀÔ·Â: ");
+		System.out.print("ï¿½Ò¼ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		String com = sc.next();
-		System.out.println("ÀÔ·Â¹ÞÀº ¼Ò¼ÓÀº " + com + "ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½Ò¼ï¿½ï¿½ï¿½ " + com + "ï¿½Ô´Ï´ï¿½.");
+
+		sc.close();
 	}
 }

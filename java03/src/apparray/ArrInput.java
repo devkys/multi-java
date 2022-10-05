@@ -21,6 +21,7 @@ public class ArrInput {
 
 	System.out.println();
 	System.out.print("합계 :" + sum);
+	in.close();
 
     }
 }

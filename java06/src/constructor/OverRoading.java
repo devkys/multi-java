@@ -6,11 +6,9 @@ public class OverRoading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		JFrame f = new JFrame();
 		JFrame f2 = new JFrame("나는 제목");
 		f2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		JButton b = new JButton();
 		JButton b2 = new JButton("나는 버튼 글자");
 		
 		Font font = new Font("궁서", 1, 50);

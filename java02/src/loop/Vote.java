@@ -1,7 +1,6 @@
 package loop;
 
 import java.util.*;
-import javax.swing.*;
 
 public class Vote {
 	public static void main(String[] args) {
@@ -33,5 +32,6 @@ public class Vote {
 			}
 
 		}
+		in.close();
 	}
 }

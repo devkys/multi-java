@@ -7,10 +7,6 @@ public class Test {
 	    int[] answer = { 1, 1, 2, 3 }; 
 	    System.out.println(answer);
 
-	    int[] myanswer = { 1, 2, 4, 3 };
-	    
-	    int[] space = new int[2];
-
 	}
 
 }

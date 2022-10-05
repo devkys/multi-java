@@ -22,7 +22,7 @@ public class Console3{
         System.out.println("내 내년 몸무게는  " + (weight - 10.0) + "입니다. ");
         System.out.println("나는 저녁을 " + dinner + "입니다. ");
         System.out.println("나의 좌우명은 " + plan + "입니다. ");
-
+        in.close();
     }
 }
 

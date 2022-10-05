@@ -20,6 +20,8 @@ public class Food {
 		} else {
 			System.out.println("그냥 안먹어요");
 		}
+		
+		in.close();
 	}
 
 }

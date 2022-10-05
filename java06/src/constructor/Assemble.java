@@ -1,6 +1,5 @@
 package constructor;
 
-import constructor.Computer;
 
 public class Assemble {
 	public static void main(String[] args) {
@@ -9,6 +8,8 @@ public class Assemble {
 		
 		System.out.println(c1);
 		System.out.println(c2);
+		
+		
 
 	}
 }

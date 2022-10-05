@@ -1,6 +1,5 @@
 package constructor;
 
-import constructor.Mask;
 
 public class MaskUse {
 	public static void main(String[] args) {

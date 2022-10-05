@@ -21,6 +21,7 @@ public class Exam04 {
 			break;
 
 		}
+		in.close();
 
 	}
 }

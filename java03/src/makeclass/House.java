@@ -1,5 +1,4 @@
 package makeclass;
-import makeclass.Account;
 
 
 public class House {

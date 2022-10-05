@@ -26,6 +26,7 @@ public class Problem {
 			System.out.println("종료할까요?(x) 계속할까요?(o)");
 			String answer = in.next();
 			if (answer.equals("x")) {
+				in.close();
 				System.out.println("게임을 종료합니다.");
 				System.out.println("---------------------------------");
 				System.out.println("앞 숫자가 더 큰 횟수 " + n1_count);

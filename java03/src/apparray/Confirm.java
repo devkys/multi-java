@@ -27,6 +27,6 @@ public class Confirm {
 		}
 
 		System.out.println("작년과 올해 가고 싶은 곳이 " + count + "개 동일합니다. ");
-
+		in.close();
 	}
 }

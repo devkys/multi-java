@@ -17,9 +17,6 @@ public class Reservation {
 		f.setLayout(flow);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JButton b1 = new JButton("좌석1");
-		JButton b2 = new JButton("좌석2");
-		JButton b3 = new JButton("좌석3");
 
 		/*
 		 * f.add(b1); f.add(b2); f.add(b3);

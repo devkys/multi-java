@@ -76,7 +76,6 @@ public class Table2 {
 
 	JTable table = new JTable(contents, header);
 
-	JScrollPane sc = new JScrollPane(table);
 
 	f.add(table);
 

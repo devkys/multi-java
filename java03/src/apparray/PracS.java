@@ -6,11 +6,10 @@ public class PracS {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("전화번호 입력>>");
-		
+
 		String s = in.next();
 		String s2 = s.trim();
 		String[] str = s2.split("-");
-		
 
 		if (str[0].equals("011")) {
 			System.out.println("SK");
@@ -31,6 +30,6 @@ public class PracS {
 		} else {
 			System.out.println("유효하지 않은 전화번호");
 		}
-
+		in.close();
 	}
 }

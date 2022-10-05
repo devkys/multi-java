@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Console2 {
     public static void main(String[] args){
-	System.out.println("³ª¿¡ ´ëÇÑ Á¤º¸ ");
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ");
 	System.out.println(" -------------");
 	Scanner in = new Scanner(System.in);
-	System.out.print("ÀÌ¸§ ÀÔ·Â>> ");
+	System.out.print("ï¿½Ì¸ï¿½ ï¿½Ô·ï¿½>> ");
 	String name = in.next();
-	System.out.print("³ªÀÌ ÀÔ·Â>> ");
+	System.out.print("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½>> ");
 	String age = in.next();
-	System.out.print("Ãë¹Ì ÀÔ·Â>> ");
+	System.out.print("ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½>> ");
 	String hobby = in.next();
 	System.out.println(" -------------");
-	System.out.println("³ªÀÇ ÀÌ¸§Àº " +  name);
-	System.out.println("³ªÀÇ ³ªÀÌ´Â  " +  age);
-	System.out.println("³ªÀÇ Ãë¹Ì´Â  " +  hobby + "ÀÔ´Ï´Ù!");
-	
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ " +  name);
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½  " +  age);
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ì´ï¿½  " +  hobby + "ï¿½Ô´Ï´ï¿½!");
+	in.close();
     }
 }

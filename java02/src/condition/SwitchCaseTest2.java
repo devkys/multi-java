@@ -5,7 +5,6 @@ import java.util.Date;
 public class SwitchCaseTest2 { 
     public static void main(String[] args) {
 	Date date = new Date();
-	int month  = date.getMonth() + 1;
 	int day = date.getDay();
 	switch (day) {
 	    case 0: case 6:

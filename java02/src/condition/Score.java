@@ -21,6 +21,8 @@ public class Score {
 		} else {
 			System.out.println("F학점");
 		}
+		
+		in.close();
 
 	}
 
