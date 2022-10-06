@@ -9,9 +9,9 @@ import java.awt.event.ActionListener;
 
 public class Diary {
 	
-	public static JTextField date_tf;
-	public static JTextField title_tf;
-	public static JTextArea ta;
+	public JTextField date_tf;
+	public JTextField title_tf;
+	public JTextArea ta;
 	
 	public void open() {
 		
